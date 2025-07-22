@@ -124,6 +124,12 @@
       "required": false,
       "value": "false"
     }, 
+
+     "ALWAYS_ONLINE": {
+      "description": "Make it true if want always online.",
+      "required": true,
+      "value": "false"  
+    },   
     
     "AUTO_RECORDING": {
       "description": "Make it true if you want auto recoding.",
