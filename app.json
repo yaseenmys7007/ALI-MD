@@ -45,7 +45,7 @@
       "value": "false"
     }, 
     
-    "ADMIN_STATUS": {
+    "ADMIN_ACTION": {
       "description": "make it true if want know who promote or demote a member .",
       "required": false,
       "value": "false"
