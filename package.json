@@ -1,15 +1,19 @@
 {
   "name": "ALI-MD",
-  "version": "3.8.0",
-  "description": "NOT THE BEST BOT IN THE UNIVERSE, BUT ENJOYMENT IS PROMISING",
+  "version": "5.0.0",
+  "description": "NOT THE BEST BOT IN THE UNIVERSE, BUT ENJOYMENT US PROMISING",
   "main": "index.js",
+  "engines": {
+    "node": ">=20.x",
+    "npm": ">=10.x"
+  },
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name ALI-MD",
     "stop": "pm2 stop ALI-MD",
     "restart": "pm2 restart ALI-MD"
   },
   "dependencies": {
-    "baileys": "npm:baileys-pro@latest",
+    "baileys": "github:EdderBot02/bail",
     "axios": "^1.7.9",
     "@adiwajshing/keyed-db": "latest",
     "@dark-yasiya/scrap": "1.0.1",
@@ -22,7 +26,7 @@
     "adm-zip": "^0.5.16",
     "api-dylux": "1.8.5",
     "btch-downloader": "^2.2.9",
-    "better-sqlite3": "npm:libsql@0.5.12",
+    "better-sqlite3": "*",
     "buffer": "^6.0.3",
     "canvacord": "^5.4.9",
     "cheerio": "^1.0.0-rc.12",
@@ -51,8 +55,7 @@
     "pdf-lib": "^1.17.1",
     "pdfkit": "^0.14.0",
     "pino": "^7.0.5",
-    "openai":"latest",
-    "pm2": "latest",
+    "pm2": "^6.0.6",
     "qrcode-reader": "^1.0.4",
     "qrcode-terminal": "^0.12.0",
     "ruhend-scraper": "8.0.3",
@@ -62,7 +65,6 @@
     "vm": "^0.1.0",
     "wa-sticker-formatter": "^4.4.4",
     "wa_set_pkg": "1.0.5",
-    "@octokit/rest": "^20.0.0",
     "yt-search": "2.11.1"
   }
 }
