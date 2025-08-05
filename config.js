@@ -6,8 +6,6 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",  
-//chatbot integration 
-CHATBOT: process.env.CHATBOT || "on",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -23,9 +21,7 @@ GOODBYE: process.env.GOODBYE || "true",
 // true if want goodbye msg in groups 
 ADMIN_EVENTS: process.env.ADMIN_ACTION || "false",
 // make true to know who dismiss or promoted a member in group
-ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
-ANTI_LINK_WARN: process.env.ANTI_LINK_WARN || "false",
-ANTI_LINK_DELETE: process.env.ANTI_LINK_DELETE || "false",
+ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups
 ANTI_CALL: process.env.ANTI_CALL || "true",
 REJECT_MSG: process.env.REJECT_MSG || "*📞 ᴄαℓℓ ɴσт αℓℓσωє∂ ιɴ тнιѕ ɴᴜмвєʀ уσυ ∂σɴт нανє ᴘєʀмιѕѕισɴ 📵*",
@@ -51,8 +47,6 @@ OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
 OWNER_NAME: process.env.OWNER_NAME || "ALI INXIDE",
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "© ᴘσωєʀє∂ ву αℓι м∂⎯꯭̽💀",
-// add bot desp name    
-LIVE_MSG: process.env.LIVE_MSG || "HEY IM ALIVE",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
