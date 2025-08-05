@@ -54,7 +54,7 @@
     "WELCOME": {
       "description": "make it true if want welcome message in groups.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
     
     "GOODBYE": {
@@ -107,16 +107,11 @@
       "value": "https://files.catbox.moe/6ku0eo.jpg" 
       },
 
-    "ANTI_LINK_WARN": {
-      "description": "Make it true if you use one antilink warn - kick.",
-      "required": false,
-      "value": "false"
-    }, 
     
-    "ANTI_LINK_KICK": {
+    "ANTI_LINK": {
       "description": "Make it true if you use one antilink warn - kick.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
     
     "ANTI_BAD_WORD": {
