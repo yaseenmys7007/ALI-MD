@@ -2,7 +2,7 @@
   "name": "ALI-MD",
   "version": "6.0.0",
   "description": "NOT THE BEST BOT IN THE UNIVERSE, BUT ENJOYMENT US PROMISING", 
-  "main": "./index.js
+  "main": "./index.js",
   "type": "commonjs",
   "--engines": {
     "node": ">=20.0.0"
