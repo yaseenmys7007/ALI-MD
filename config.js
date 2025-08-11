@@ -4,7 +4,7 @@ const fs = require('fs'),
       dotenv = fs.existsSync('config.env') ? require('dotenv').config({ path: '/.env' }) : undefined,
       convertToBool = (text, fault = 'true') => text === fault;
 
-global.session = "https://session-id-2fza.onrender.com"; 
+global.session = "https://ali-pair-xode.onrender.com"; 
  
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "ALI-MD~hETMsPVK7nwRBa4NzqcM", // Add sess Id here espwcially when deploying on panels else use app.json and .env file...
