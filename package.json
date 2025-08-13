@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name ALI-MD",
-    "stop": "pm2 stop princemdx",
+    "stop": "pm2 stop ALI-MD",
     "restart": "pm2 restart ALI-MD"
   },
   "keywords": [
