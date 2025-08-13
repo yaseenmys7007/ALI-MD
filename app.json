@@ -2,10 +2,10 @@
   "name": "ALI-MD",
   "version": "6.0.0",
   "description": "I am ALI MD, a Simple WhatsApp Bot built with NodeJs to Enhance WhatsApp Communication experience",
-  "website": "https://files.catbox.moe/ykdtkm.jpeg",
-  "logo": "https://files.catbox.moe/52699c.jpg",
+  "website": "https://files.catbox.moe/6ku0eo.jpg",
+  "logo": "https://files.catbox.moe/6ku0eo.jpg",
   "keywords": ["ali-md", "ali mdx","ali mdxi","ALI-MDI"],
-  "repository": "https://github.com/Mayelprince/PRINCE-MDXI",
+  "repository": "https://github.com/itx-alii-raza/ALI-MD",
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -114,7 +114,7 @@
     "BOT_NAME": {
       "description": "You can edit this but maintain font style for uniformity. Use 'Fonts Type Keyboard' for styles.",
       "required": false,
-      "value": "𝐋𝐄𝐎-𝐌𝐃 𝐁𝐎𝐓"
+      "value": "𓆩ု᪳𝐀ɭīī 𝐌Ɗှ᪳𓆪"
     },
       "BOT_PIC": {
       "description": "put here the bot Menu url if you don't have you can use this public url.",
